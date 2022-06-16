@@ -1,5 +1,5 @@
 # HoloRex
-Blender/Unity T-Rex model for reinforcement learning.
+Blender/Unity T-Rex model for **reinforcement learning**.
 
 Blender mesh and armature are heavily based on Youtube tutorials by Alimayo Arango:  
 https://www.youtube.com/watch?v=4J2ObXB_kuk
