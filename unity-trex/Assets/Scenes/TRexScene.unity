@@ -490,6 +490,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4650410332413017516, guid: 05e92bed11c7045c1a5870ba62d4564d, type: 3}
   m_PrefabInstance: {fileID: 5496918633142508842}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &919132147559161993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147559161990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b136787f87d154fc49b16cadb349325a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5496918633142508842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -497,9 +509,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1912885182382108625, guid: 05e92bed11c7045c1a5870ba62d4564d, type: 3}
+      propertyPath: m_Name
+      value: pelvis_end
+      objectReference: {fileID: 0}
+    - target: {fileID: 1960408798413625607, guid: 05e92bed11c7045c1a5870ba62d4564d, type: 3}
+      propertyPath: m_Name
+      value: right_base
+      objectReference: {fileID: 0}
     - target: {fileID: 4650410332413017516, guid: 05e92bed11c7045c1a5870ba62d4564d, type: 3}
       propertyPath: m_Name
       value: trex
+      objectReference: {fileID: 0}
+    - target: {fileID: 5248994160050923334, guid: 05e92bed11c7045c1a5870ba62d4564d, type: 3}
+      propertyPath: m_Name
+      value: pelvis_base
+      objectReference: {fileID: 0}
+    - target: {fileID: 5424743323719328438, guid: 05e92bed11c7045c1a5870ba62d4564d, type: 3}
+      propertyPath: m_Name
+      value: left_base
       objectReference: {fileID: 0}
     - target: {fileID: 5458999513412331286, guid: 05e92bed11c7045c1a5870ba62d4564d, type: 3}
       propertyPath: m_RootOrder
@@ -544,6 +572,10 @@ PrefabInstance:
     - target: {fileID: 5458999513412331286, guid: 05e92bed11c7045c1a5870ba62d4564d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291505543041613590, guid: 05e92bed11c7045c1a5870ba62d4564d, type: 3}
+      propertyPath: m_Name
+      value: butt
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5496918632890035708, guid: 05e92bed11c7045c1a5870ba62d4564d, type: 3}
