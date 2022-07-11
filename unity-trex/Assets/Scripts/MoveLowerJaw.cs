@@ -17,6 +17,7 @@ public class MoveLowerJaw : MonoBehaviour
     private float velocity;
     private int frameCount;
     private float force;
+    private float targetVelocity;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,7 +40,10 @@ public class MoveLowerJaw : MonoBehaviour
     {
         
         var motor = jointController.motor;
-        
+        motor.targetVelocity = targetVelocity;
+        motor.force = force;
+        jointController.motor = motor; 
+        /*
         if (Input.GetKeyDown("o")) {
     
             motor.targetVelocity = -100;
@@ -58,7 +62,24 @@ public class MoveLowerJaw : MonoBehaviour
             print("CLOSE "+jointController.transform.rotation);    
         
         }
-        
+        */
     }
+
+    public void OpenJaw() {
+        //var motor = jointController.motor;
+        targetVelocity = -100;
+        force = 100;
+       // jointController.motor = motor;    
+        print("OPEN  "+jointController.transform.rotation);
+        return;
+    }
+
+    public void CloseJaw() {
+        
+        targetVelocity = 100;
+        force = 300;
+        print("CLOSE "+jointController.transform.rotation);
+        return;
+    }    
 }
 
